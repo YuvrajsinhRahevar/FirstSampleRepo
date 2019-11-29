@@ -6,6 +6,9 @@
 trigger:
 - master
 
+jobs:
+- job: e2e_tests
+
 pool:
   vmImage: 'ubuntu-latest'
 
